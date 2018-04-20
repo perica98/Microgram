@@ -1,0 +1,256 @@
+@font-face { font-family: "FontAwesome"; src: url("font-awesome.otf"); }
+@font-face { font-family: "OpenSans"; src: url("opensans.ttf"); }
+@font-face { font-family: "Liquidrom"; src: url("Liquidrom.ttf"); }
+
+body {
+	margin: 0;
+	font-family: "OpenSans";
+}
+
+header {
+	background-image: url("images/pocetna.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+	
+}
+
+.gradient {
+	background: linear-gradient(to bottom, rgba(10,60,80,1) 0%, rgba(20,90,28,0.6) 100%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+nav {
+	font-family: "FontAwesome";
+	overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 15px;
+}
+
+nav a {
+	color:rgba(255,255,255,0.8);
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#6fdba3 ;
+	transition: 2s;
+}
+
+nav i {
+	margin-left: 20px;
+	color: #25BAD0
+}
+
+.studio {
+	margin-left: 10px;
+	font-size: 30px;
+	font-family: "Liquidrom";
+}
+
+
+.studio:hover {
+	color:rgba(255,255,255,0.8);
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	margin-bottom: 10px;
+	font-family: "OpenSans";
+}
+
+span {
+	font-style: bold;
+	color:#25BAD0;
+}
+
+header p {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-align:center;
+	color: white;
+	font-size: 18px;
+	font-family: "OpenSans";
+}
+
+.learn {
+	color: #25BAD0;
+	text-align:center;
+	border-style: solid;
+	border-size: 1px;
+	border-color: #25BAD0;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20%;
+	margin-right: 15px;
+	text-decoration:none;
+	font-family: "OpenSans";
+
+}
+
+.learn:hover {
+	background-color: #25BAD0;
+	color: white;
+}
+
+#services {
+	padding: 120px 0px;
+	background:url("images/desert.jpg");
+	background-attachment: fixed;
+
+}
+
+#services p {
+	font-size: 15px;
+	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
+}
+
+.podnaslov{
+	font-size: 15px;
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-left: 120px;
+	padding-right: 120px;
+	font-family: "OpenSans";
+}
+
+.services {
+	text-align:center;
+	font-family: "OpenSans";
+}
+
+h2 {
+    margin: 0;
+    color: #4c56db;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+	font-family: "OpenSans";
+}
+
+h4 {
+	color: #25BAD0;
+	font-size: 20px;
+	font-family: "OpenSans";
+}
+
+.cards i {
+	font-size:50px;
+	color:#4c56db;
+	border: 1px solid #25BAD0;
+    background: #25BAD0;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 1px;
+}
+
+
+#prvi {
+	background-position: fixed;
+}
+
+.cards {
+	margin-top: 40px;
+}
+
+.cards p {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.kartice {
+	padding: 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#about {
+	background:linear-gradient(#0C3611,#0b2336);
+	padding: 120px;
+	
+}
+
+#about h2 {
+	color: #4c56db;
+	font-family: "OpenSans";
+}
+
+#about p {
+	color: white;
+	padding-left: 20px;
+	font-size: 15px;
+	font-family: "OpenSans";
+}
+
+.about {
+	text-align:center;
+}
+
+img {
+	padding-top: 50px;
+	height: auto;
+}
+
+#about h4 {
+	color: #68595f;
+	font-size: 20px;
+	padding-left: 20px;
+	font-family: "OpenSans";
+}
+
+.slika {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0px;
+
+}
+
+
+#contact {
+	background-image: url("images/old-phone.jpg");
+	background-size: cover;
+}
+
+#contact p {
+	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
+}
+
+.gradient1 {
+	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%);
+	width: 100%;
+	height: 100%;
+}
+
+.gradient1 div {
+	text-align: center;
+	padding: 120px;
+}
+
+
+

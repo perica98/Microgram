@@ -1,0 +1,44 @@
+<section id="portfolio">
+		<div>
+			<h2>PORTFOLIO</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor apibus lornare diam commodo nibh.</p>
+		</div>
+
+		<div class="galerija">
+			<img src="images/01.jpg">
+			<img src="images/02.jpg">
+			<img src="images/03.jpg">
+			<img src="images/04.jpg">
+			<img src="images/05.jpg">
+			<img src="images/06.jpg">
+			<img src="images/07.jpg">
+			<img src="images/08.jpg">
+		</div>
+	</section>
+
+	#portfolio {
+	padding: 120px;
+	background-color: #03252b;
+}
+
+#portfolio p {
+	color: rgba(255,255,255,0.5);
+	font-family: "OpenSans";
+}
+
+#portfolio div {
+	text-align:center;
+	font-family: "OpenSans";
+}
+
+.galerija {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.galerija img:hover {
+	transition-duration: 1s;
+    transform: scale(1.2);
+}
